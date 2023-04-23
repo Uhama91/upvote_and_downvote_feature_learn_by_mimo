@@ -1,11 +1,14 @@
+/* Center content in the body */
 body {
   text-align: center;
 }
 
+/* Style for the panda image */
 img {
   border-radius: 10px;
 }
 
+/* Common styles for both buttons */
 button {
   margin: 5px;
   border-radius: 10px;
@@ -15,14 +18,17 @@ button {
   font-size: 16px;
 }
 
+/* Upvote button specific styles */
 #upvote {
   background-color: green;
 }
 
+/* Downvote button specific styles */
 #downvote {
   background-color: red;
 }
 
+/* Style for the votes count */
 #votes {
   font-weight: bold;
   font-size: 25px;
